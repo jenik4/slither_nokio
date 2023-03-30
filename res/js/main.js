@@ -46,7 +46,7 @@ document.addEventListener("keydown", event => {
    x: 150,
    y: 150,
    size: 50,
-   Image: playerImg
+   image: playerImg
  };
 
  let objects = [];
@@ -84,7 +84,7 @@ document.addEventListener("keydown", event => {
  
  function gameLoop() {
    ctx.clearRect(0, 0, canvas.width, canvas.height);
-   ctx.drawImage(player.Image, player.x, player.y, player.size, player.size);
+   ctx.drawImage(player.image, player.x, player.y, player.size, player.size);
  
    if (Math.random() < 0.2) {
      createObject();
