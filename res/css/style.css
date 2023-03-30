@@ -1,0 +1,23 @@
+
+
+body{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+}
+#canvas {
+    border: 1px solid black;
+    background-image: url(../imgs/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+  #score{
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+  }
+  

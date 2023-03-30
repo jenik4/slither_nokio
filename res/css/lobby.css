@@ -1,0 +1,74 @@
+#play_Button{
+    
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px lightseagreen;
+    box-shadow: 0 0 20px lightseagreen;
+    transition: 1s;
+   position: absolute;
+   top: 57%;
+   left: 47%;
+   
+}
+
+
+
+#background{
+background-image: url(../imgs/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#play_Button:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+    text-shadow: none;
+    box-shadow: 0 0 20px lightseagreen, 0 0 40px lightseagreen, 0 0 60px lightseagreen, 0 0 80px lightseagreen;
+    transform: scale(1.2);
+}
+*{
+    user-select: none;
+    
+   
+}
+
+h1{
+
+  
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+#text{
+  
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 84%;
+    top: 68%;
+    
+
+}
+
+#right_Background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 80%;
+    top: 69%;
+
+}
+a{
+    text-decoration: none;
+}
+
+
