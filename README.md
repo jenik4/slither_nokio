@@ -1,2 +1,2 @@
 
-[play](https://jenik4.github.io/slither_mokio/)
+[PLAY](https://jenik4.github.io/slither_nokio/)
