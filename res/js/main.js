@@ -18,21 +18,21 @@ score.innerHTML = `Score: ${scorecount}`;
 document.addEventListener("keydown", event => {
   if (event.code === "ArrowUp" && player.y > 0) {
     player.y -= 10;
-    playerImg.src = "../res/imgs/rocket.png";
+    playerImg.src = "./res/imgs/rocket.png";
   }
   if (event.code === "ArrowDown" && player.y < canvas.height - player.size) {
     player.y += 10;
-    playerImg.src = "../res/imgs/rocket-dolu.png";
+    playerImg.src = "./res/imgs/rocket-dolu.png";
 
   }
   if (event.code === "ArrowLeft" && player.x > 0) {
     player.x -= 10;
-    playerImg.src = "../res/imgs/rocket-leva.png";
+    playerImg.src = "./res/imgs/rocket-leva.png";
 
   }
   if (event.code === "ArrowRight" && player.x < canvas.width - player.size) {
     player.x += 10;
-    playerImg.src = "../res/imgs/rocket-prava.png";
+    playerImg.src = "./res/imgs/rocket-prava.png";
 
 
   }
@@ -68,7 +68,7 @@ document.addEventListener("keydown", event => {
  }
  
  const blackholeImg = new Image();
- blackholeImg.src = "../res/imgs/blackhole.png";
+ blackholeImg.src = "./res/imgs/blackhole.png";
  
  function createBlackhole() {
    if (blackholes.length < 15) {
