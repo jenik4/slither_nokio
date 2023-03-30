@@ -120,7 +120,7 @@ document.addEventListener("keydown", event => {
        player.y < blackhole.y + blackhole.size &&
        player.y + player.size > blackhole.y
      ) {
-       window.location.href = "../index.html";
+       window.location.href = "./index.html";
      }
    }
  
