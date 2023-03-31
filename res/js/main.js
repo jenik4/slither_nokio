@@ -120,6 +120,8 @@ document.addEventListener("keydown", event => {
        player.y < blackhole.y + blackhole.size &&
        player.y + player.size > blackhole.y
      ) {
+      scorecount = 0;
+      sessionStorage.setItem("scorecount", scorecount);
        window.location.href = "index.html";
      }
    }
