@@ -12,7 +12,9 @@ score.innerHTML = `Score: ${scorecount}`;
  // canvas
  const canvas = document.getElementById("canvas");
  const ctx = canvas.getContext("2d");
-
+ 
+canvas.width= window.innerWidth;
+canvas.height= window.innerHeight;
 
 // eventlistener pro pohyb playera
 document.addEventListener("keydown", event => {
